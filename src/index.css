@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital@0;1&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.lcn-icon {
+  @apply w-5 h-5 inline-block
+}
+
+.lcn-badge-circle {
+  @apply text-xs rounded-full px-1.5
+}
+
+.lcn-header-item {
+  @apply block cursor-pointer hover:text-gray-800 relative after:lg:absolute after:lg:bottom-0 after:lg:bg-light-coffee
+      after:lg:left-0 after:lg:w-0 hover:after:lg:w-full after:lg:h-0.5 after:lg:transition-all after:lg:ease-in-out after:lg:duration-300
+}
+.lcn-menu-open {
+  @apply absolute  top-10 w-full bg-white text-center animate-slideDown
+}
+.lcn-menu-open .lcn-header-item {
+  @apply p-4  
+}
