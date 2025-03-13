@@ -27,6 +27,9 @@ export default {
       },
       animation: {
         slideDown: 'slideDown .4s ease-in-out',
+      },
+      screens: {
+        'mobile': '375px'
       }
     },
   },

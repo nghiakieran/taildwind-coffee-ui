@@ -29,9 +29,8 @@ function Header() {
     };
   }, [isMenuOpen]);
 
-  console.log(isMenuOpen);
   return (
-    <header className='max-w-940 mx-auto py-6'>
+    <header className='max-w-940 mx-auto py-6 lg:px-0 mobile:px-12'>
       <nav className=' flex justify-between items-center relative gap-5'>
         <a className="basis-1/6 cursor-pointer text-xl font-semibold hover:text-gray-700">CoffeeStyle.</a>
         <div className={`basis-4/6 lg:flex lg:gap-8 tracking-widest lg:justify-between text-xs uppercase text-gray-500 font-medium
@@ -41,7 +40,7 @@ function Header() {
             return (
               <Item key={item} item={item} /> 
             )
-          })}
+          })} 
         </div>
         <div className="basis-4/6 lg:basis-1/6 py-1 cursor-pointer  hover:text-slate-950 flex justify-end lg:justify-end  items-center uppercase text-gray-500 font-medium">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="lcn-icon mr-2">
