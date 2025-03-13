@@ -26,7 +26,7 @@ export default {
         }
       },
       animation: {
-        slideDown: 'slideDown 0.75s ease-in-out',
+        slideDown: 'slideDown .4s ease-in-out',
       }
     },
   },

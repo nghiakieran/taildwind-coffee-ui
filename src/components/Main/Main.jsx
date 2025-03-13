@@ -1,8 +1,11 @@
 import React from 'react'
+import Slider from './Slider'
 
 function Main() {
   return (
-    <div>Main</div>
+    <div>
+      <Slider />
+    </div>
   )
 }
 
