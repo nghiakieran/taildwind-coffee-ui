@@ -1,10 +1,10 @@
 import React from 'react'
-import SubHeadLine from './SubHeadLine'
+import SubHeadLine from '../../components/SubHeadLine'
 
 function Story() {
   return (
     <>
-      <div className='story max-w-[65%] mx-auto'>
+      <div className='story max-w-[66%] mx-auto'>
           <div className='md:px-16 lg:px-24 xl:px-[142px] mb-24 text-center'>
             <h2 className='mt-5 mb-4 text-[28px] leading-10'>Even the all-powerful Pointing has no control about the blind texts.</h2>
             <p className='mb-4 text-[#1d1f2eb3] leading-7'>It is a paradisematic country, in which roasted parts of sentences fly into your mouth. 

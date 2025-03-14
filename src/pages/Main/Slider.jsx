@@ -3,7 +3,7 @@ import React from 'react'
 function Slider() {
   return (
     <div className='slider'>
-      <div className='h-[530px] mx-8 mb-24 bg-[url(./img/slider-bg.jpg)] bg-cover bg-bottom bg-no-repeat'>
+      <div className='h-[430px] sm:h-[530px] mx-8 mb-24 bg-[url(./img/slider-bg.jpg)] bg-cover bg-bottom bg-no-repeat'>
         <div className='bg-opacity-40 bg-gray-900 w-full h-full flex items-center justify-center'>
           <div className='text-white text-center'>
             <div className=''>

@@ -1,8 +1,5 @@
 import React from 'react'
-
-
 function SubHeadLine({ children }) {
-  console.log(children);
   return (
     <div className='lcn-subHeadline'>
       <div className='lcn-subHeadline-deco-line w-8 h-px bg-gray-200'></div>

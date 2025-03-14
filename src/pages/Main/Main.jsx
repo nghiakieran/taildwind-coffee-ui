@@ -2,6 +2,7 @@ import React from 'react'
 import Slider from './Slider'
 import Story from './Story'
 import FeaturedMugs from './FeaturedMugs'
+import ListProduct from './ListProduct'
 
 function Main() {
   return (
@@ -9,6 +10,7 @@ function Main() {
       <Slider />
       <Story />
       <FeaturedMugs />
+      <ListProduct />
     </div>
   )
 }
