@@ -12,12 +12,26 @@
 }
 
 .lcn-header-item {
-  @apply py-1 font-bold block cursor-pointer hover:text-gray-800 relative after:lg:absolute after:lg:bottom-0 after:lg:bg-light-coffee
+  @apply py-1 font-bold block cursor-pointer hover:text-gray-800 relative after:lg:absolute after:lg:bottom-0 after:lg:bg-coffee-200
       after:lg:left-0 after:lg:w-0 hover:after:lg:w-full after:lg:h-0.5 after:lg:transition-all after:lg:ease-in-out after:lg:duration-300
 }
+
 .lcn-menu-open {
   @apply absolute  top-10 w-full bg-white text-center animate-slideDown
 }
+
 .lcn-menu-open .lcn-header-item {
   @apply p-4  
+}
+
+.lcn-subHeadline {
+  @apply flex items-center justify-center mb-24
+}
+
+.lcn-subHeadline-deco {
+  @apply  w-8 h-px bg-gray-200
+}
+
+.lcn-subHeadline-label {
+  @apply text-xs tracking-[2px] mx-4 text-gray-500 font-bold uppercase
 }

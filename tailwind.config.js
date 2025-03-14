@@ -13,7 +13,12 @@ export default {
         ]
       },
       colors: {
-        'light-coffee': '#C89F94'
+        'coffee': {
+          '50': '#a25f4b33',
+          '200': '#C89F94',
+          '400': '#a25f4b'
+        }
+          
       },
       maxWidth: {
         '1440': '1440px', 
