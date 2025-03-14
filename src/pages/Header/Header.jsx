@@ -30,10 +30,10 @@ function Header() {
   }, [isMenuOpen]);
 
   return (
-    <header className='max-w-940 mx-auto py-6 lg:px-0 mobile:px-12'>
-      <nav className=' flex justify-between items-center relative gap-5'>
+    <header className='max-w-[65%] md:mx-auto mobile:mx-auto py-6 lg:px-0'>
+      <nav className=' flex justify-between items-center relative lg:gap-3 gap-2'>
         <a className="basis-1/6 cursor-pointer text-xl font-semibold hover:text-gray-700">CoffeeStyle.</a>
-        <div className={`basis-4/6 lg:flex lg:gap-8 tracking-widest lg:justify-between text-xs uppercase text-gray-500 font-medium
+        <div className={`basis-4/6 lg:flex lg:gap-2  tracking-widest lg:justify-between text-xs uppercase text-gray-500 font-medium
            ${isMenuOpen ? "lcn-menu-open" : "hidden"}`}
         >
           {items.map(item => {
@@ -49,7 +49,7 @@ function Header() {
           <span className='mx-1 text-xs tracking-widest '>cart</span>
           <span className='lcn-badge-circle text-xs bg-orange-400 ml-2 text-white'>10</span>
         </div>
-        <div className='lg:hidden basis-1/6 flex items-center px-3 sm:px-8' >
+        <div className='lg:hidden basis-1/6 flex items-center justify-end sm:px-8' >
           <svg onClick={handleToggleMenu} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className='lcn-icon  cursor-pointer'>
             <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
           </svg>

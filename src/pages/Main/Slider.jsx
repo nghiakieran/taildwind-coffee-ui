@@ -11,7 +11,7 @@ function Slider() {
               <div className='my-3 text-5xl font-medium leading-[60px]'>Coffee Mugs</div>
               <div className='text-lg mb-8 opacity-95'>The most versatile furniture system ever created. Designed to fit your life, made to move and grow.</div>
             </div>
-            <a className='flex justify-center' href='#'><span className='bg-white uppercase w-max text-gray-900 px-8 py-4 font-bold tracking-[0.125rem] text-xs hover:bg-opacity-95'>Explore Our Product</span></a>
+            <a className='flex justify-center' href='#'><span className='lcn-button bg-white uppercase w-max text-gray-900'>Explore Our Product</span></a>
           </div>
         </div>
       </div>

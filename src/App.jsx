@@ -6,7 +6,7 @@ import Main from './pages/Main/Main'
 function App() {
 
   return (
-    <div className='content-wrapper text-base font-Karla'>  
+    <div className='content-wrapper max-w-screen-2xl mx-auto text-base font-Karla'>  
       <Header />
       <Main />
     </div>
