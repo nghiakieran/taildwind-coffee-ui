@@ -8,9 +8,9 @@ function FeaturedMugs() {
       <div className='featured-mugs w-[95%] xl:w-[66%] mx-auto mb-12'>
         <div className='grid grid-col-1 mx-8 lg:grid-cols-2 gap-9 lg:gap-4'>
           <ProductCard featuredHeight imgUrl='./img/featured-mugs-01.jpg' name='Pink Premium Ceramic'
-            price='$ 99.00 USD' />
+            price='$ 99.00 USD' contentButton='Explore Mug'/>
           <ProductCard sale featuredHeight imgUrl='./img/featured-mugs-02.jpg' name='Golden Designers Mug'  
-            saleOff={{ price: '$50.00', sale: '$ 69.00 USD' }} />
+            saleOff={{ price: '$50.00', sale: '$ 69.00 USD' }} contentButton='Explore Mug'/>
         </div>
       </div>
       <SubHeadLine>More Products</SubHeadLine>
