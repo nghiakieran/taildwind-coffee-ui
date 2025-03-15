@@ -5,6 +5,7 @@ import FeaturedMugs from './FeaturedMugs'
 import ListProduct from './ListProduct'
 import Magazine from './Magazine'
 import LifeStories from './LifeStories'
+import Subscribe from './Subscribe'
 
 function Main() {
   return (
@@ -15,6 +16,7 @@ function Main() {
       <ListProduct />
       <Magazine />
       <LifeStories />
+      <Subscribe />
     </div>
   )
 }
