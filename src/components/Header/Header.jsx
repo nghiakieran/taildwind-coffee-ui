@@ -30,7 +30,7 @@ function Header() {
   }, [isMenuOpen]);
 
   return (
-    <header className='max-w-[65%] md:mx-auto mobile:mx-auto py-6 lg:px-0'>
+    <header className='max-w-[66%] md:mx-auto mobile:mx-auto py-6 lg:px-0'>
       <nav className=' flex justify-between items-center relative lg:gap-3 gap-2'>
         <a className="basis-1/6 cursor-pointer text-xl font-semibold hover:text-gray-700">CoffeeStyle.</a>
         <div className={`basis-4/6 lg:flex lg:gap-2  tracking-widest lg:justify-between text-xs uppercase text-gray-500 font-medium

@@ -5,7 +5,7 @@ function FeaturedMugs() {
 
   return (
     <>
-      <div className='featured-mugs w-[95%] lg:w-[66%] mx-auto mb-12'>
+      <div className='featured-mugs w-[95%] xl:w-[66%] mx-auto mb-12'>
         <div className='grid grid-col-1 mx-8 lg:grid-cols-2 gap-9 lg:gap-4'>
           <ProductCard featuredHeight imgUrl='./img/featured-mugs-01.jpg' name='Pink Premium Ceramic'
             price='$ 99.00 USD' />

@@ -5,7 +5,7 @@ import SubHeadLine from '../../components/SubHeadLine'
 function ListProduct() {
   return (
     <>
-      <div className='featured-mugs w-[95%] lg:w-[66%] mx-auto mb-24'>
+      <div className='more-products w-[95%] xl:w-[66%] mx-auto mb-28'>
         <div className='grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 mx-8 gap-9 md:gap-4'>
           <ProductCard sale imgUrl='./img/item-01.jpg' name='Red Love Cup' saleOff={{ price: '$25.00', sale: '$ 37.00 USD'}} />
           <ProductCard sale imgUrl='./img/item-02.jpg' name='Black Tea Cup' saleOff={{ price: '$15.00', sale: '$ 29.00 USD' }} />

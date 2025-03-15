@@ -39,7 +39,8 @@ export default {
         fadeIn: 'fadeIn .5s ease-in-out',
       },
       screens: {
-        'mobile': '375px'
+        'mobile': '375px',
+        'xs': '480px'
       }
     },
   },

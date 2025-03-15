@@ -3,6 +3,7 @@ import Slider from './Slider'
 import Story from './Story'
 import FeaturedMugs from './FeaturedMugs'
 import ListProduct from './ListProduct'
+import Magazine from './Magazine'
 
 function Main() {
   return (
@@ -11,6 +12,7 @@ function Main() {
       <Story />
       <FeaturedMugs />
       <ListProduct />
+      <Magazine />
     </div>
   )
 }
